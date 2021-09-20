@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Nav from './components/Nav/Nav';
+import Nav from '../Nav';
 
 afterEach(cleanup);
 
